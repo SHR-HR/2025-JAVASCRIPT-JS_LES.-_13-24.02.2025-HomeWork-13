@@ -1,0 +1,49 @@
+/* 🔹 Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* 🔹 Контейнер */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+/* 🔹 Форма */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* 🔹 Поля ввода */
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* 🔹 Кнопка */
+button {
+    background: #ff8c00;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #ff4500;
+}

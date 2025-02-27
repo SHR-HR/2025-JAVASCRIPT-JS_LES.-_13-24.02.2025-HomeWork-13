@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="HOME_WORK_TASKS.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎯 Регистрация</h1>
+        <form id="registrationForm">
+            <label for="name">👤 Имя:</label>
+            <input type="text" id="name" placeholder="Введите имя">
+
+            <label for="email">📧 Email:</label>
+            <input type="email" id="email" placeholder="Введите email">
+
+            <label for="phone">📞 Телефон:</label>
+            <input type="text" id="phone" placeholder="Введите номер телефона">
+
+            <label for="password">🔑 Пароль:</label>
+            <input type="password" id="password" placeholder="Введите пароль">
+
+            <label for="confirmPassword">🔁 Подтвердите пароль:</label>
+            <input type="password" id="confirmPassword" placeholder="Повторите пароль">
+
+            <button type="button" onclick="validateForm()">📌 Зарегистрироваться</button>
+        </form>
+
+        <p id="result"></p>
+    </div>
+
+    <script src="HOME_WORK_TASKS.js"></script>
+</body>
+</html>
